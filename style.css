@@ -1,0 +1,274 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    pointer-events: visible;
+    
+}
+
+
+#background-video{
+    object-fit: contain;
+    position: fixed;
+    left: 3%;
+    z-index: -1;
+
+}
+
+
+
+nav span img{
+    width: 40px;
+    height: 30px;
+    margin: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+}
+#con{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-right: 40px;
+   
+}
+#con p{
+    margin-left: 40px;
+
+}
+#con img{
+    margin: 10px;
+    margin-left: 40px;
+}
+#hin{
+    color: gray;
+}
+
+#nav2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding-left: 50px;
+    background-color: white;
+    
+
+}
+#nav2 p{
+    margin: 0px 25px;
+}
+
+#videos{
+    margin: 40px;
+    
+    width: 95%;
+    height: 600px;
+    background-color: blue;
+    border-radius: 20px;
+    overflow: hidden;
+    
+
+}
+
+#videos video{
+    width: 100%;
+    z-index: 2;
+    
+    
+}
+
+
+
+ 
+#brand::-webkit-scrollbar-thumb{
+    background-color: rgb(219, 108, 16);
+} 
+
+#brand{
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-top:  2px solid black;
+    border-bottom:  2px solid black;
+    margin-top: 20px;
+
+}
+#brand-s{
+    
+    display: inline-block;
+    animation-name: text-anime;
+    animation-duration: 5s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+#brand-s h1{
+    display: inline-block;
+    margin: 40px;
+}
+
+@keyframes text-anime {
+    from{transform: translateX(0);}
+
+    to{
+        transform: translateX(-100%);
+    }    
+}
+
+
+#model{
+    display: flex;
+    overflow-x: auto;
+
+}
+#model img{
+    margin: 300px 150px;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+}
+#model::-webkit-scrollbar{
+    background-color: transparent;
+}
+
+#menu{
+    width: 100%;
+    height: 100vh;
+}
+    
+ 
+#men{
+    width: 100%;
+    height: 30vh;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 35vh;
+    margin: 2px 0px;
+    position: relative;
+    font-size: xx-large;
+
+}
+#men i{
+    font-size: 50px;
+    margin-left: 50px;
+}
+#men img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+    
+}
+#men:hover  img{
+    opacity: 1;
+    left: 35%;
+    height: 350px;
+    width: 350px;
+    transition: all ease 1.5s;}
+
+#women{
+    width: 100%;
+    height: 30vh;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40vh;
+    position: relative;
+    font-size: xx-large;
+   
+
+}
+#women i{
+    font-size: 50px;
+    margin-right: 50px;
+    
+}
+#women img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+}
+#women:hover  img{
+    opacity: 1;
+    right: 65%;
+    height: 350px;
+    width: 350px;
+    transition: all ease 1.5s;
+    
+}
+#kids{
+    width: 100%;
+    height: 30vh;
+   
+    display: flex;
+    align-items: center;
+    padding-left: 35vh;
+    border-bottom: 2px solid black;
+    position: relative;
+    font-size: xx-large;
+    
+
+}
+#kids i{
+    font-size: 50px;
+    margin-left: 50px;
+}
+#kids img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    opacity: 0;}
+
+    #kids:hover  img{
+        opacity: 1;
+        left: 45%;
+        height: 350px;
+        width: 350px;
+        transition: all ease 1.5s;}
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+#bottom img{
+    height: 150px;
+    width: 150px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#copy p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+p:hover{
+    text-decoration: underline;
+    color: blue;
+   
+
+}
